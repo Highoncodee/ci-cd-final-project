@@ -1,7 +1,7 @@
-# CI/CD Final Project
+# ci-cd-final-project
 
 ## Project Name
-**CI/CD Pipeline for Python Application Deployment using GitHub Actions, Tekton and OpenShift**
+**ci-cd-final-project**
 
 ## Project Overview
 This project demonstrates the implementation of an automated Continuous Integration and Continuous Delivery (CI/CD) pipeline for a Python application.
@@ -46,7 +46,7 @@ The project follows these major stages:
 ## Project Structure
 
 ```text
-cicd-final-project/
+ci-cd-final-project/
 │
 ├── .github/
 │   └── workflows/
@@ -54,9 +54,9 @@ cicd-final-project/
 │
 ├── .tekton/
 │   └── tasks.yml
-│
-├── README.md
-└── application source and test files
+├── app.py
+├── test_app.py
+└── README.md
 ```
 
 ## Expected Outcome
